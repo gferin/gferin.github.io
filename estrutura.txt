@@ -1,0 +1,10 @@
+> home: Intrudução 
+> sobre: detalhes
+> projetos: seus projetos
+contato: forma de contato (formulário)
+
+index.html
+sobre.html
+peojetos.html
+contatos.html
+styles.css

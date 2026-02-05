@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <section id="contato">
+                <h1>Contato</h1>
+                <p>Envie-me uma mensagem através do formulário abaixo:</p>
+                <form action="https://wa.me/5514991750710?text=" method="get" target="_blank">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="text" id="mensagem" rows="4" cols="50" required></textarea>
+                    <br>
+                    <button type="submit">Enviar via WhatsApp</button>
+                </form>
+
+                <p>Envie-me uma mensagem por e-mail:</p>
+                <form action="mailto:gustavo.ferin@gmail.com" method="post" enctype="text/plain">
+                    <label for="email"> E-mail</label>
+                    <textarea name="Mensagem" id="email" rows="4" cols="50" required></textarea>
+                    <br>
+                    <button type="submit">Enviar via E-mail</button>
+                </form>
+            </section>
+        </main>
+        <footer> 
+            <p>&copy; 2025 Gustavo Ferin. Todos os direitos reservados</p>
+        </footer>
+</body>
+</html>

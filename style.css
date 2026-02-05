@@ -1,0 +1,102 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header e menu */
+header {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Container padrão */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Conteúdo principal */
+main {
+  padding: 40px 20px;
+}
+
+/* Página Sobre */
+#sobre {
+  text-align: center;
+}
+
+#sobre h1 {
+  margin-bottom: 20px;
+}
+
+.foto-perfil {
+  width: 150px;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+#sobre p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Formulário */
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form textarea {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+#table-projetos {
+    width: 100%;
+    text-align: center;
+}
